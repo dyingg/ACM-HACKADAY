@@ -17,8 +17,8 @@ def load_image(img_path, show=False):
   
 #img_path = 'C:/Users/Ferhat/Python Code/Workshop/Tensoorflow transfer learning/blue_tit.jpg'
 
-for i in range(1, 4):
-	img_path = './test/t{}.jpeg'.format(i)
+for i in range(1, 10):
+	img_path = './test/t2 ({}).jpeg'.format(i)
 	new_image = load_image(img_path)
 
 	pred = model.predict(new_image)
